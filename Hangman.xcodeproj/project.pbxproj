@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A91F7C1223CAB270019FAD7 /* KernedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91F7C0223CAB270019FAD7 /* KernedLabel.swift */; };
 		0A9238B3223C446D00C3A69A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9238B2223C446D00C3A69A /* AppDelegate.swift */; };
 		0A9238B5223C446D00C3A69A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9238B4223C446D00C3A69A /* ViewController.swift */; };
 		0A9238B8223C446D00C3A69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9238B6223C446D00C3A69A /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		0A9238BD223C447000C3A69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9238BB223C447000C3A69A /* LaunchScreen.storyboard */; };
 		0A9238C8223C447100C3A69A /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9238C7223C447100C3A69A /* HangmanTests.swift */; };
 		0A9238D3223C447200C3A69A /* HangmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9238D2223C447200C3A69A /* HangmanUITests.swift */; };
+		0A9238E1223C44F200C3A69A /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9238E0223C44F200C3A69A /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A91F7C0223CAB270019FAD7 /* KernedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KernedLabel.swift; sourceTree = "<group>"; };
 		0A9238AF223C446D00C3A69A /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9238B2223C446D00C3A69A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A9238B4223C446D00C3A69A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		0A9238CE223C447100C3A69A /* HangmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9238D2223C447200C3A69A /* HangmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanUITests.swift; sourceTree = "<group>"; };
 		0A9238D4223C447200C3A69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9238E0223C44F200C3A69A /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		0A9238B1223C446D00C3A69A /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				0A9238E0223C44F200C3A69A /* DesignableView.swift */,
+				0A91F7C0223CAB270019FAD7 /* KernedLabel.swift */,
 				0A9238B2223C446D00C3A69A /* AppDelegate.swift */,
 				0A9238B4223C446D00C3A69A /* ViewController.swift */,
 				0A9238B6223C446D00C3A69A /* Main.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9238B5223C446D00C3A69A /* ViewController.swift in Sources */,
+				0A91F7C1223CAB270019FAD7 /* KernedLabel.swift in Sources */,
 				0A9238B3223C446D00C3A69A /* AppDelegate.swift in Sources */,
+				0A9238E1223C44F200C3A69A /* DesignableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
